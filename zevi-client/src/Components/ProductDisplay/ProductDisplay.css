@@ -19,4 +19,15 @@
   justify-content: center;
   font-size: 1.5rem;
   color: gray;
+}
+
+@media screen and (max-width: 1000px) {
+  .product_results_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+  .product_results_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }/*# sourceMappingURL=ProductDisplay.css.map */
