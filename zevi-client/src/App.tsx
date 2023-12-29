@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home.tsx";
-import Products from "./Pages/Products/Products.tsx"
+import Products from "./Pages/ProductsFilter/ProductsFilter.tsx"
 
 const App = () => {
   return (
