@@ -6,7 +6,7 @@ const ProductsNavbar = () => {
     return (
         <div className='products-navbar'>
             <img src={ zevi_logo } alt="zevi logo " />
-            <form>
+            <form className="products-navbar--form">
                 <input type='text' placeholder='Search your product...'
                     className='searchbar-input' />
                 <button className='search-icon'><BsSearch size="20" /></button>
