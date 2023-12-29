@@ -1,5 +1,5 @@
 import { useState } from "react";
-import home_bg from "../images/home_bg.png";
+import home_bg from "../../images/home_bg.png";
 import "./Home.scss";
 import Logo from "../../Components/Logo/Logo.tsx";
 import { BsSearch } from "react-icons/bs";
