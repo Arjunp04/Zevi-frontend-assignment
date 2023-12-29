@@ -1,9 +1,9 @@
 import { useState } from "react";
 import home_bg from "../images/home_bg.png";
 import "./Home.scss";
-import Logo from "../Components/Logo/Logo";
+import Logo from "../../Components/Logo/Logo.tsx";
 import { BsSearch } from "react-icons/bs";
-import { LatestTrendType, SuggestionType, fetchSuggestionData, fetchLatestTrendData } from "../FakerData/FakerData.tsx";
+import { LatestTrendType, SuggestionType, fetchSuggestionData, fetchLatestTrendData } from "../../FakerData/FakerData.tsx";
 import { useNavigate } from "react-router-dom";
 
 
